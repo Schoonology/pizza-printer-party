@@ -1,16 +1,7 @@
-# pizza_printer_party
+# Pizza Printer Party
 
-A new Flutter project.
+This is a really quick, basic Flutter application I threw together to connect to a DIY thermal printer in our house. The printer uses a Particle Photon, so all this app has to do is make requests of their Cloud API.
 
-## Getting Started
+To use, you'll need to implement a Particle device that provides a single-String "message" function, and create a `lib/secrets.dart` file with the appropriate settings.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+See `lib/home.dart` for implementation details.
